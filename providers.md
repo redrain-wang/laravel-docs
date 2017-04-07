@@ -96,7 +96,7 @@ Artisan 命令行接口可以很容易地通过 `make:provider` 命令生成新�
 
 #### 启动方法依赖注入
 
-我们可以为我们 `boot` 方法中的依赖作类型提式。[服务容器](/docs/{{version}}/container) 会自动注入你所需要的任何依赖：
+我们可以为我们 `boot` 方法中的依赖作类型提示。[服务容器](/docs/{{version}}/container) 会自动注入你所需要的任何依赖：
 
     use Illuminate\Contracts\Routing\ResponseFactory;
 
